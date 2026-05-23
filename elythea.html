@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Investment in Elythea — Moso Capital</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .article-hero {
+      padding: 160px 48px 72px;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+    .article-hero .hero-bg, .article-hero .hero-grid-lines {
+      position: absolute;
+      inset: 0;
+    }
+    .article-hero .hero-bg {
+      background:
+        radial-gradient(ellipse 60% 50% at 70% 50%, rgba(46,204,130,0.08) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 60% at 20% 80%, rgba(45,122,86,0.05) 0%, transparent 60%);
+    }
+    .article-hero .hero-grid-lines {
+      background-image:
+        linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
+      background-size: 80px 80px;
+      mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+    }
+    .article-inner {
+      max-width: 720px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    .article-tag {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--green-dark);
+      margin-bottom: 20px;
+    }
+    .article-tag::before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 2px;
+      background: var(--green-dark);
+      flex-shrink: 0;
+    }
+    .article-title {
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 800;
+      letter-spacing: -1.5px;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin-bottom: 24px;
+    }
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--text-muted);
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      letter-spacing: 0;
+    }
+    .article-meta-author {
+      font-weight: 600;
+      color: var(--text-secondary);
+    }
+    .article-body {
+      padding: 72px 48px;
+    }
+    .article-body .article-inner {
+      font-size: 16px;
+      line-height: 1.85;
+      color: var(--text-secondary);
+    }
+    .article-body h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.5px;
+      margin: 48px 0 16px;
+    }
+    .article-body h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin: 32px 0 12px;
+    }
+    .article-body p {
+      margin-bottom: 20px;
+    }
+    .article-body strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+    .article-body ul {
+      margin: 0 0 20px 24px;
+    }
+    .article-body ul li {
+      margin-bottom: 8px;
+    }
+    .article-pullquote {
+      border-left: 3px solid var(--green-light);
+      padding: 4px 0 4px 24px;
+      margin: 36px 0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.5;
+      letter-spacing: -0.3px;
+    }
+    .article-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .article-back:hover { color: var(--text-primary); }
+    .article-back svg { transition: transform 0.2s; }
+    .article-back:hover svg { transform: translateX(-3px); }
+    .article-top-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 36px;
+    }
+    .article-meta {
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img src="moso.png" alt="Moso Capital" style="height:60px;width:auto;" />
+  </a>
+  <ul class="nav-links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="index.html#portfolio">Portfolio</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="index.html#memo" style="color:var(--text-primary);">Moso Memo</a></li>
+    <li><a href="index.html#join" class="nav-cta">Apply Now</a></li>
+  </ul>
+</nav>
+
+<!-- ── ARTICLE HERO ── -->
+<div class="article-hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid-lines"></div>
+  <div class="article-inner">
+    <div class="article-top-row">
+      <a href="index.html#memo" class="article-back">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        Moso Memo
+      </a>
+      <div class="article-tag">Investment Memo &middot; Healthcare</div>
+    </div>
+    <h1 class="article-title">Our Investment in Elythea: Revolutionizing how doctors diagnose pregnancy complications through pioneer ML predictive analytics</h1>
+    <div class="article-meta">
+      <span class="article-meta-author">Evelyn Nguyen</span>
+      <span>January 2024</span>
+      <span>Healthcare &middot; Machine Learning &middot; Women's Health</span>
+    </div>
+  </div>
+</div>
+
+<!-- ── ARTICLE BODY ── -->
+<div class="article-body">
+  <div class="article-inner">
+
+    <p>Despite post-pandemic inactivity, the healthcare startup world is heating up — with a smaller yet more quality pool of innovative early-stage companies. Moso Capital's investment in Elythea during its $1.5M seed round reflects our conviction that machine learning will fundamentally change how clinicians approach maternal health.</p>
+
+    <h2>The Founder</h2>
+    <p>Reetam Ganguli is passionate, talented, and cautious — a rare combination in early-stage founders. Accepted to Brown's accelerated medical program at 17, he brings deep clinical intuition to a deeply technical problem. Before Elythea, he founded a biology education company that reached 10,000+ students globally, demonstrating both his ability to build and his commitment to impact at scale.</p>
+
+    <div class="article-pullquote">
+      "The students surfaced great companies that we subsequently reached out to." — Amy Wu, Partner @ Menlo Ventures
+    </div>
+
+    <h2>The Technology</h2>
+    <p>Elythea's core platform uses machine learning trained on <strong>14 million patient records</strong> to predict pregnancy complications — including postpartum hemorrhage and preeclampsia — from a patient's very first visit using basic demographic data. The model surfaces risk signals that clinicians routinely miss, enabling earlier intervention and better outcomes.</p>
+
+    <p>What sets Elythea apart is the model's generalizability. Pilot programs operating in <strong>Nigeria and Cameroon</strong> have demonstrated that the technology holds up well beyond U.S. patient data — a critical proof point for any ML-driven health platform with global ambitions.</p>
+
+    <h2>The Market</h2>
+    <p>Elythea targets a <strong>$1.3B pregnancy complications market</strong>, with a clear expansion path into the broader $110B chronic disease sector spanning cardiology, oncology, and diabetes. The company's ability to move from maternal health into adjacent diagnostic verticals is a key part of the long-term thesis.</p>
+
+    <h2>What We Learned</h2>
+    <p>Underwriting this deal sharpened four principles we carry into every diligence process:</p>
+    <ul>
+      <li><strong>Maintain transparency</strong> — both with founders and with our venture partners on what we know and don't know.</li>
+      <li><strong>Ask probing questions</strong> — the best founders welcome hard questions; surface-level diligence misses the risks that matter.</li>
+      <li><strong>Maintain healthy skepticism</strong> — even compelling technology needs a clear path to adoption and a credible GTM.</li>
+      <li><strong>Balance commitment with objectivity</strong> — conviction and rigor aren't opposites. The best investment decisions hold both.</li>
+    </ul>
+
+    <p>Elythea embodies what we look for at Moso: a founder with deep domain knowledge, technology that is genuinely differentiated, and a mission worth backing for the long term.</p>
+
+  </div>
+</div>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-inner">
+    <a href="index.html" class="footer-logo">
+      <img src="moso.png" alt="Moso Capital" style="height:60px;width:auto;" />
+    </a>
+    <ul class="footer-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="index.html#portfolio">Portfolio</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="index.html#memo">Moso Memo</a></li>
+    </ul>
+    <div class="footer-right">
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/company/mosocap/" target="_blank" class="footer-social" title="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/mosocapital/" target="_blank" class="footer-social" title="Instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+        </a>
+      </div>
+      <div class="footer-copy">© 2026 Moso Capital.</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  window.addEventListener('scroll', () => {
+    document.querySelector('nav').style.borderBottomColor =
+      window.scrollY > 20 ? 'rgba(0,0,0,0.12)' : 'rgba(0,0,0,0.09)';
+  });
+</script>
+</body>
+</html>
