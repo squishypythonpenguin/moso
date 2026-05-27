@@ -148,11 +148,11 @@ nav {
 .hero-badge {
   display: inline-flex;
   align-items: center;
-  padding: 8px 18px;
+  padding: 5px 13px;
   border: 1.5px solid var(--green-dark);
   border-radius: 100px;
   font-family: 'Inter', sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -163,7 +163,7 @@ nav {
   font-family: 'Poppins', sans-serif;
   font-size: clamp(36px, 5.5vw, 68px);
   font-weight: 800;
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: -2px;
   margin-bottom: 20px;
   max-width: 800px;
